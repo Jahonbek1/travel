@@ -1,0 +1,74 @@
+/*1200,  992, 768, 576*/
+
+
+
+
+@media (max-width: 1200px){
+    .container{
+       background-color: aqua;
+       width: 900px;
+    }
+}
+@media (max-width: 992px){
+    .container{
+       width: 700px;
+    }
+}
+@media (max-width: 768px){
+    .container{
+       width: 500px;
+    }
+}
+@media (max-width: 576px){
+    .container{
+       width: 100%;
+    }
+}
+.promo h1{
+    font-size: 80px;
+}
+.tour-grid{
+    grid-template-columns: repeat(2, 1fr);
+}
+.hamburger{
+    display: none;
+}
+.white-box{
+    max-width: 100%;
+}
+.exercusion_grid{
+    grid-template-columns: 1fr;
+}
+.exe_desc{
+    max-width: 100%;
+}
+.gallery_grid{
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: 186px 194px 260px;
+}
+.gallery_grid img:nth-child(1n){
+    grid-row: auto;
+    grid-column: auto;
+}
+.gallery_grid img:nth-child(1){
+    grid-row: 1/3;
+}
+.gallery_grid img:nth-child(4){
+    grid-column: 1/3;
+}
+.gallery_grid img:nth-child(1n + 5){
+    display: none;
+}
+@media(max-width:768px){
+    .container{
+        width: 500px;
+    }
+    .promo{
+        height: 600px;
+
+    }
+    .hamburger{
+        display: block;
+    }
+}
+
